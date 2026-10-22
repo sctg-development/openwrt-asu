@@ -67,7 +67,7 @@ service:
 ingress:
   enabled: true
   className: haproxy
-  host: openwrt-asu.mesh.sctg.eu.org
+  host: openwrt-asu.ts.sctg.eu.org
   allowList: 100.64.0.0/10,fd7a:115c:a1e0::/48
   annotations: {}
   tls: []
