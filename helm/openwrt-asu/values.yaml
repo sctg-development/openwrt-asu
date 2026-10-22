@@ -68,6 +68,8 @@ ingress:
   enabled: true
   className: haproxy
   host: openwrt-asu.ts.sctg.eu.org
+  # additional host names served by the same Ingress (e.g. a name resolving to a LAN address of an ingress node)
+  extraHosts: []
   allowList: 100.64.0.0/10,fd7a:115c:a1e0::/48
   annotations: {}
   tls: []
